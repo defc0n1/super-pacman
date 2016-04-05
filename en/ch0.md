@@ -27,11 +27,15 @@ levels in the editor and automatically place all the objects on the map dynamica
     for(let x = 0; x < size.width; x++){
       for(let y = 0; y < size.height; y++){
         if(Global.game.tileMap.getTileAt(layer, x, y) === tile){
-          Sup.log("tile", tile, "is in position :", x, y, "of layer", layer);
+          // Sup.log("tile", tile, "is in position :", x, y, "of layer", layer);
           return new Sup.Math.Vector2(x, y);
         }
       }
     }
+  }
+  
+  function eraseTile(layer:number, x:number, y:number){
+      Global.game.tileMap.setTileAt(layer, x, y, -1);
   }
   
   // function that get the start position of pacman on the map
@@ -39,7 +43,8 @@ levels in the editor and automatically place all the objects on the map dynamica
     let position;
     position = checkMap(layers.objects, tiles.pacman);
     // Erase pacman start tile
-    Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+    // Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+    eraseTile(layers.objects, position.x, position.y )
     Global.pacman.position = position;
   }
   
@@ -50,9 +55,39 @@ levels in the editor and automatically place all the objects on the map dynamica
       let position;
       position = checkMap(layers.objects, tiles.ghost);
       // Erase current ghost start tile
-      Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+      // Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+      eraseTile(layers.objects, position.x, position.y )
       // Set this position to the ghost of index ghostIndex
       Global.ghosts[ghostIndex].position = position;
+    }
+  }
+  // function that replace the coin on level by coin actors, and count them
+  export function setCoins(){
+    for(let x = 0; x < size.width; x++){
+      for(let y = 0; y < size.height; y++){
+        if(Global.game.tileMap.getTileAt(layers.objects, x, y) === tiles.coin){
+          Global.coins.small++
+          let coin = new Sup.Actor("smallCoin");
+          coin.setPosition(x, y, 10);
+          new Sup.SpriteRenderer(coin, "Items/SmallCoin/Sprite");
+          // Here create actor smallCoin with the position and sprite ..
+          Global.coinsList.small.push(coin);
+         // Erase current coin start tile
+         // Global.game.tileMap.setTileAt(3, x, y, -1);
+        eraseTile(layers.objects, x, y);
+        }
+        else if(Global.game.tileMap.getTileAt(layers.objects, x, y) === tiles.bigcoin){
+          Global.coins.big++
+          let coin = new Sup.Actor("bigCoin");
+          coin.setPosition(x, y, 10);
+          new Sup.SpriteRenderer(coin, "Items/BigCoin/Sprite");
+          // Here create actor bigCoin with the position and sprite ..
+          Global.coinsList.big.push(coin);
+         // Erase current coin start tile
+         // Global.game.tileMap.setTileAt(3, x, y, -1);
+        eraseTile(layers.objects, x, y);
+        }
+      }
     }
   }
 ```
