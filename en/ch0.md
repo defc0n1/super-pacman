@@ -1,13 +1,63 @@
-## Super Pacman
-### Superpowers Game Development Series #5
-#### Learn creative development while revisiting video game history
+# Superpowers Game Development Series #5 Super Pacman
+## **Game Devlog**
 
 
-#### 05/04/2016
+### **05/04/2016**
 
-...
+Today I started the game from scratch with superpowers, on my previously games I did the menu at the end and found that it was bringing me little issues to solve when I had to polish the game, 
+so this time I set the start screen menu directly, even if it doesn't do anything else than jump to the game scene when I press the Space key. 
 
-#### 04/04/2016
+Doing the start screen is also an opportunity to think about the general art design of the game, I start with this colors palette and will improve it from this base.
+
+![start screen](img/ch0/050416-1.png)
+
+From here I can work on the menu and the game in the same time as my need appears.
+
+I also started to make a template level test with the dev tile set. This will be good enough art to start to code the game logic.
+
+![level template](img/ch0/050416-2.png)
+
+With a checking of tile on the Map, I can already set the positions of the Pacman, Coin and Ghosts actor to their starting position. This simple script allow me to build differents 
+levels in the editor and automatically place all the objects on the map dynamically. It erase the tiles that I use for level design and replace it with the game actors. 
+
+![actors in place!](img/ch0/050416-3.png)
+
+```ts
+  function checkMap(layer?:number, tile?:number){
+    for(let x = 0; x < size.width; x++){
+      for(let y = 0; y < size.height; y++){
+        if(Global.game.tileMap.getTileAt(layer, x, y) === tile){
+          Sup.log("tile", tile, "is in position :", x, y, "of layer", layer);
+          return new Sup.Math.Vector2(x, y);
+        }
+      }
+    }
+  }
+  
+  // function that get the start position of pacman on the map
+  export function setPacman(){
+    let position;
+    position = checkMap(layers.objects, tiles.pacman);
+    // Erase pacman start tile
+    Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+    Global.pacman.position = position;
+  }
+  
+  // function that get the start ghost positions on the map
+  export function setGhosts(){
+    // Loop 4 times for the 4 ghosts
+    for(let ghostIndex = 0; ghostIndex < 4; ghostIndex++){
+      let position;
+      position = checkMap(layers.objects, tiles.ghost);
+      // Erase current ghost start tile
+      Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
+      // Set this position to the ghost of index ghostIndex
+      Global.ghosts[ghostIndex].position = position;
+    }
+  }
+```
+
+### **04/04/2016**
 
 I am starting today the development of Pacman with superpowers, I believe it will take me between 3 weeks and 1 month to build the complete game with assets and the tutorial gitbook.
 
