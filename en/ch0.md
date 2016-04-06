@@ -11,7 +11,7 @@ In game this layer is simply hidden by the background layer.
 * I also started to write the pacman movement and I struggle a bit with it. What I try to do is to check on the tileMap each tile on the position next to the pacman position.
 I will try tomorrow to fix a bug with the collision movements or change my method.
 
-![game screen with HUD](img/ch0/060416-1.gif)
+![game screen with HUD](img/ch0/060416-1.png)
 
 * Now I can just call once a set function and it will do all the level preparation with the position layer :
 
