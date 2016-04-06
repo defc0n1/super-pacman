@@ -1,6 +1,34 @@
 # Superpowers Game Development Series #5 Super Pacman
 ## **Game Devlog**
 
+### **06/04/2016**
+
+* I changed my mind with the objects positions on the level, now I do a layer that I won't erase and keep as a reference each time I start the level. 
+In game this layer is simply hidden by the background layer.
+
+* I added the HUD (position of sprite in scene only) with the pacman lifes and fruits than I forgot yesterday.
+
+* I also started to write the pacman movement and I struggle a bit with it. What I try to do is to check on the tileMap each tile on the position next to the pacman position.
+I will try tomorrow to fix a bug with the collision movements or change my method.
+
+![game screen with HUD](img/ch0/060416-1.gif)
+
+* Now I can just call once a set function and it will do all the level preparation with the position layer :
+
+```ts  
+  start() {
+    Level.set();
+  }
+  
+  [...]
+  
+  export function set(){
+    setPacman();
+    setGhosts();
+    setCoins();
+    getFruitsRandomPositions();
+  }
+```
 
 ### **05/04/2016**
 
