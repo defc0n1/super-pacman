@@ -1,6 +1,13 @@
 # Superpowers Game Development Series #5 Super Pacman
 ## **Game Devlog**
 
+### **07/04/2016**
+
+* Today I fixed the pacman movement.
+* The pacman can also eat coins and earn points from them.
+
+![Pacman can eat a lot](img/ch0/070416-1.png)
+
 ### **06/04/2016**
 
 * I changed my mind with the objects positions on the level, now I do a layer that I won't erase and keep as a reference each time I start the level. 
