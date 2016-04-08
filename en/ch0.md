@@ -11,10 +11,8 @@
 * There is a kind of timer when they stay in jail and when they can go through the door after this timer. There is a random timer when the game start to not let them go in the same time.
 
 ```ts  
-   // Will prisoner, stay in jail
     if(this.freedomCoolDown > 0){
       if(this.freedomCoolDown === 1){
-        // this.leaveJail();
         this.doorOpen = true;
       }
       this.freedomCoolDown--
