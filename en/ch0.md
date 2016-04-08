@@ -1,9 +1,19 @@
-# Superpowers Game Development Series #5 Super Pacman
-## **Game Devlog**
+# Superpowers Game Development Series #5 
+## **Super Pacman Game Devlog**
+
+
+### **08/04/2016**
+
+* I added the Ghosts behavior, they are now moving on the map randomly. I also improved the ghost sprite and animation (eyes looking in the current direction)
+
+* There is a kind of timer when they stay in jail and when they can go through the door after this timer. There is a random timer when the game start to not let them go in the same time.
+
+![Ghost come on board](img/ch0/080416-1.png)
 
 ### **07/04/2016**
 
-* Today I fixed the pacman movement.
+* Today I fixed the pacman movement, what was important to find out was a way to keep access to a grid based coordinate that I could use to check the tiles and I get rid of the float numbers
+multiplying position by ten to make operation and dividing by ten to get back coordinates, it is less messy this way (thanks sparkinlabs code source for the idea).
 * The pacman can also eat coins and earn points from them.
 
 ![Pacman can eat a lot](img/ch0/070416-1.png)
