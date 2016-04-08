@@ -6,9 +6,20 @@
 
 * I added the Ghosts behavior, they are now moving on the map randomly. I also improved the ghost sprite and animation (eyes looking in the current direction)
 
+![Ghost come on board](img/ch0/080416-1.png)
+
 * There is a kind of timer when they stay in jail and when they can go through the door after this timer. There is a random timer when the game start to not let them go in the same time.
 
-![Ghost come on board](img/ch0/080416-1.png)
+```ts  
+   // Will prisoner, stay in jail
+    if(this.freedomCoolDown > 0){
+      if(this.freedomCoolDown === 1){
+        // this.leaveJail();
+        this.doorOpen = true;
+      }
+      this.freedomCoolDown--
+    }
+```
 
 ### **07/04/2016**
 
