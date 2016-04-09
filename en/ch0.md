@@ -7,6 +7,10 @@
 
 * When the pacman eat a big coin, the ghosts become vulnerable for a certain amount of time. Still need to add a blinking when the ghost come back to normal.
 
+* The pacman can eat ghost or be eaten and loose one life, just need to update HUD.
+
+* The ghosts go in jail when eaten (I have not done the eye track until jail from the original pacman, too lazy).
+
 ![Ghost come on board](img/ch0/090416-1.png)
 
 
