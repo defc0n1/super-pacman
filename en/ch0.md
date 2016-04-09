@@ -1,6 +1,14 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+### **09/04/2016**
+
+* The pacman now eat fruits that appear randomly and got the score displayed in the position where the fruit was.
+
+* When the pacman eat a big coin, the ghosts become vulnerable for a certain amount of time. Still need to add a blinking when the ghost come back to normal.
+
+![Ghost come on board](img/ch0/090416-1.png)
+
 
 ### **08/04/2016**
 
@@ -10,14 +18,6 @@
 
 * There is a kind of timer when they stay in jail and when they can go through the door after this timer. There is a random timer when the game start to not let them go in the same time.
 
-```ts  
-    if(this.freedomCoolDown > 0){
-      if(this.freedomCoolDown === 1){
-        this.doorOpen = true;
-      }
-      this.freedomCoolDown--
-    }
-```
 
 ### **07/04/2016**
 
@@ -26,6 +26,7 @@ multiplying position by ten to make operation and dividing by ten to get back co
 * The pacman can also eat coins and earn points from them.
 
 ![Pacman can eat a lot](img/ch0/070416-1.png)
+
 
 ### **06/04/2016**
 
@@ -39,22 +40,8 @@ I will try tomorrow to fix a bug with the collision movements or change my metho
 
 ![game screen with HUD](img/ch0/060416-1.png)
 
-* Now I can just call once a set function and it will do all the level preparation with the position layer :
+* Now I can just call once a set function and it will do all the level preparation with the position layer.
 
-```ts  
-  start() {
-    Level.set();
-  }
-  
-  [...]
-  
-  export function set(){
-    setPacman();
-    setGhosts();
-    setCoins();
-    getFruitsRandomPositions();
-  }
-```
 
 ### **05/04/2016**
 
@@ -76,75 +63,6 @@ levels in the editor and automatically place all the objects on the map dynamica
 
 ![actors in place!](img/ch0/050416-3.png)
 
-```ts
-  function checkMap(layer?:number, tile?:number){
-    for(let x = 0; x < size.width; x++){
-      for(let y = 0; y < size.height; y++){
-        if(Global.game.tileMap.getTileAt(layer, x, y) === tile){
-          // Sup.log("tile", tile, "is in position :", x, y, "of layer", layer);
-          return new Sup.Math.Vector2(x, y);
-        }
-      }
-    }
-  }
-  
-  function eraseTile(layer:number, x:number, y:number){
-      Global.game.tileMap.setTileAt(layer, x, y, -1);
-  }
-  
-  // function that get the start position of pacman on the map
-  export function setPacman(){
-    let position;
-    position = checkMap(layers.objects, tiles.pacman);
-    // Erase pacman start tile
-    // Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
-    eraseTile(layers.objects, position.x, position.y )
-    Global.pacman.position = position;
-  }
-  
-  // function that get the start ghost positions on the map
-  export function setGhosts(){
-    // Loop 4 times for the 4 ghosts
-    for(let ghostIndex = 0; ghostIndex < 4; ghostIndex++){
-      let position;
-      position = checkMap(layers.objects, tiles.ghost);
-      // Erase current ghost start tile
-      // Global.game.tileMap.setTileAt(3, position.x, position.y, -1);
-      eraseTile(layers.objects, position.x, position.y )
-      // Set this position to the ghost of index ghostIndex
-      Global.ghosts[ghostIndex].position = position;
-    }
-  }
-  // function that replace the coin on level by coin actors, and count them
-  export function setCoins(){
-    for(let x = 0; x < size.width; x++){
-      for(let y = 0; y < size.height; y++){
-        if(Global.game.tileMap.getTileAt(layers.objects, x, y) === tiles.coin){
-          Global.coins.small++
-          let coin = new Sup.Actor("smallCoin");
-          coin.setPosition(x, y, 10);
-          new Sup.SpriteRenderer(coin, "Items/SmallCoin/Sprite");
-          // Here create actor smallCoin with the position and sprite ..
-          Global.coinsList.small.push(coin);
-         // Erase current coin start tile
-         // Global.game.tileMap.setTileAt(3, x, y, -1);
-        eraseTile(layers.objects, x, y);
-        }
-        else if(Global.game.tileMap.getTileAt(layers.objects, x, y) === tiles.bigcoin){
-          Global.coins.big++
-          let coin = new Sup.Actor("bigCoin");
-          coin.setPosition(x, y, 10);
-          new Sup.SpriteRenderer(coin, "Items/BigCoin/Sprite");
-          // Here create actor bigCoin with the position and sprite ..
-          Global.coinsList.big.push(coin);
-         // Erase current coin start tile
-         // Global.game.tileMap.setTileAt(3, x, y, -1);
-        eraseTile(layers.objects, x, y);
-        }
-      }
-    }
-  }
-```
 
 ### **04/04/2016**
 
