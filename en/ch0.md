@@ -1,6 +1,22 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+
+
+### **10/04/2016**
+
+* The hud update when pacman lose one life.
+
+* The pacman death animation is added.
+
+![Death animation](img/ch0/100416-1.png)
+
+#### Menu levels selection
+
+* I worked on the menu screens, added levels buttons and selection system.
+
+![Level selection](img/ch0/100416-2.png)
+
 ### **09/04/2016**
 
 * The pacman now eat fruits that appear randomly and got the score displayed in the position where the fruit was.
@@ -9,9 +25,9 @@
 
 * The pacman can eat ghost or be eaten and loose one life, just need to update HUD.
 
-* The ghosts go in jail when eaten (I have not done the eye track until jail from the original pacman, too lazy).
+* The ghosts go in jail when eaten (*I have not done the eye track back until jail from the original pacman, too lazy*).
 
-![Ghost come on board](img/ch0/090416-1.png)
+![Ghost eating](img/ch0/090416-1.png)
 
 
 ### **08/04/2016**
