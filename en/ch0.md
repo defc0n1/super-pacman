@@ -2,6 +2,27 @@
 ## **Super Pacman Game Devlog**
 
 
+### **13/04/2016**
+
+// Start tutorial
+
+### **12/04/2016**
+
+* Victory and game over screen with game statistics added.
+
+![End screen](img/ch0/120416-1.png)
+
+* The ghosts are now blinking before to get back vulnerability.
+
+* I have built some more levels patterns and also improved the wall tiles and made some variants.
+
+![New level](img/ch0/120416-2.png)
+
+// * I did sounds and music for the game.
+
+### **11/04/2016**
+
+* Today I mostly did some bug fixes and added the game timer.
 
 ### **10/04/2016**
 
