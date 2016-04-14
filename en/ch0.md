@@ -4,7 +4,9 @@
 
 ### **14/04/2016**
 
-* I wrote the Chapter 2
+* I wrote the [Chapter 2 : Setting the project structure](ch2.md) and released the v0.2 of the project [here](https://github.com/mseyne/super-pacman-project).
+
+![Chapter 2](img/ch0/140416-1.png)
 
 
 ### **13/04/2016**
