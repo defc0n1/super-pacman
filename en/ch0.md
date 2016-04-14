@@ -2,9 +2,18 @@
 ## **Super Pacman Game Devlog**
 
 
+### **14/04/2016**
+
+* I wrote the Chapter 2
+
+
 ### **13/04/2016**
 
-// Start tutorial
+* Today I start the tutorial from a second build of the Game. The reason why I start again from scratch is that I can build it as I write the tutorial and I will do release of the game by chapter.
+To see the evolution as we follow the tutorial.
+
+* I wrote the [Chapter 1 : Planning the game](ch1.md).
+
 
 ### **12/04/2016**
 
@@ -18,11 +27,13 @@
 
 ![New level](img/ch0/120416-2.png)
 
-// * I did sounds and music for the game.
+* I did sounds and music for the game.
+
 
 ### **11/04/2016**
 
 * Today I mostly did some bug fixes and added the game timer.
+
 
 ### **10/04/2016**
 
@@ -32,11 +43,13 @@
 
 ![Death animation](img/ch0/100416-1.png)
 
+
 #### Menu levels selection
 
 * I worked on the menu screens, added levels buttons and selection system.
 
 ![Level selection](img/ch0/100416-2.png)
+
 
 ### **09/04/2016**
 
