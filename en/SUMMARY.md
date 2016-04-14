@@ -1,11 +1,11 @@
 # Summary
 
-* [Chapter 0 : Game Devlog](ch0.md)
-* [Chapter 1 : Planning the game](ch1.md)
-* Setting game structure
-* Setting assets
-* Designing levels
-* Setting scenes
+* [Ch0 : Game devlog](ch0.md)
+* [Ch1 : Planning the game](ch1.md)
+* [Ch2 : Setting the project structure](ch2.md)
+* Setting the assets
+* Designing the levels
+* Composing the scenes
 * Building game menu
 * Script global datas
 * Script level loading

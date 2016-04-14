@@ -2,12 +2,16 @@
 ### Superpowers Game Development Series #5
 #### Learn creative development while revisiting video game history
 
-* [Game Devlog](ch0.md)
-* [Plan The Game](ch1.md)
-* Setting game structure
-* Setting assets
-* Designing levels
-* Setting scenes
+* [Chapter 0 : Game devlog](ch0.md)
+* [Chapter 1 : Planning the game](ch1.md)
+   * [Game Introduction](ch1.md#game-introduction)
+   * [Features of the game](ch1.md#features-of-the-game)
+   * [Gameplay manual](ch1.md#gameplay-manual)
+* [Chapter 2 : Setting the project structure](ch2.md)
+   * 
+* Setting the assets
+* Designing the levels
+* Composing the scenes
 * Building game menu
 * Script global datas
 * Script level loading
