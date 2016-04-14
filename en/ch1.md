@@ -3,16 +3,18 @@
 ### **Chapter 1 : Planning the game**
 
 
+#### Game introduction
+
 For this tutorial, we will build [Pacman][1], a game released in 1980 and developped by Namco.
 
-// Image title, screenshot here
+![PACMAN](img/pacman.png)
 
 The game consist of mazes in which the player move around and try to eat every coins and fruits while
-in the same time try to avoid the ghosts moving also in maze. 
+in the same time try to avoid the ghosts moving also in the maze. 
 
 The player can invert the ghost situation by eating a big coin which make the ghosts vulnerable and can be eaten by the player.
 
-#### Features of the game :
+#### Features of the game
 
 - A game menu, with level selection to start the maze we want.
 - Moving the pacman in a maze, eating coins and fruits give points.
@@ -25,7 +27,7 @@ The player can invert the ghost situation by eating a big coin which make the gh
 - If player eat all coins, victory screen with statistics.
 - Sounds and little music for introduction and end.
 
-#### Gameplay manual : 
+#### Gameplay manual 
 
 The player move the pacman with the keyboard arrows, **left**, **up**, **right**, **down**. 
 
