@@ -1,10 +1,16 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+### **16/04/2016**
+
+* I wrote the [Chapter 3 : Setting the assets](ch3.md) and release the v3 of the project [here](https://github.com/mseyne/super-pacman-project).
+* I also polished all the sprites, will finish the tileset with the chapter 4 tomorrow.
+
+![Chapter 3](img/ch3/menustart.png)
 
 ### **14/04/2016**
 
-* I wrote the [Chapter 2 : Setting the project structure](ch2.md) and released the v0.2 of the project [here](https://github.com/mseyne/super-pacman-project).
+* I wrote the [Chapter 2 : Setting the project structure](ch2.md) and released the v2 of the project [here](https://github.com/mseyne/super-pacman-project).
 
 ![Chapter 2](img/ch0/140416-1.png)
 
