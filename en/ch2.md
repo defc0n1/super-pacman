@@ -14,6 +14,8 @@ little object like a simple sound. We can separate our game in different folders
 
 ![Basic structure](img/ch2/mainstructure.png)
 
+*Note : It is easier to set the global settings for the sprite and tilemap assets (16px/unit instead of 100) before to create them and avoid to change the pixels per unit for each after.*
+
 #### Global script
 
 The global script will contain most of the game datas and global function that we need for all our others script to interact with each other. We make it blank as it won't contain no Class.
@@ -25,7 +27,7 @@ The global script will contain most of the game datas and global function that w
 The game folder contain the scene and script of the game itself. The game script will contain mostly global methods of the game that concern all other objects of the game in runtime like the 
 timer, updating the score, checking if the game is won, etc. The game scene is where we combine and place all actors together in the scene editor.
 
-* Game (folder)
+* **Game** (folder)
    * Game (script)
    * Scene (scene)
 
@@ -36,13 +38,13 @@ timer, updating the score, checking if the game is won, etc. The game scene is w
 The Menu folder contain what is related to all the screens that does not concern the game directly like the introduction screen, the level selection to start a new game and the 
 victory or game over screens. The Menu script will have the logic of buttons and screens change. The screens and buttons come as different sprites that we set in the Menu scene.
 
-* Menu (folder)
+* **Menu** (folder)
    * Menu (script)
    * Scene (scene)
    * Screens (folder)
-      * End (sprite)
       * Start (sprite)
       * Levels (sprite)
+      * End (sprite)
    * Buttons (folder)
       * Buttons (sprite)
       * Levels (sprite)
@@ -54,7 +56,7 @@ victory or game over screens. The Menu script will have the logic of buttons and
 The Level folder contain all what concern the game mazes, the tileset and each tilemap for each level. The template level will help us for mapping, as we will draw once
  the basic layout of all the maps and then copy it for each level.
  
-* Level (folder)
+* **Levels** (folder)
    * Tileset (tile set)
    * Template (folder)
       * Tilemap (tile map)
@@ -69,7 +71,7 @@ The Level folder contain all what concern the game mazes, the tileset and each t
 
 The Pacman folder contain the script and sprites that are related to the character controlled by the player.
 
-* Pacman (folder)
+* **Pacman** (folder)
    * Pacman (script)
    * Move (sprite)
    * Life (sprite)
@@ -81,7 +83,7 @@ The Pacman folder contain the script and sprites that are related to the charact
 
 The Ghosts folder contain the script and sprites that are related to the characters moving in the mazes as the player try to avoid or eat them.
 
-* Ghosts (folder)
+* **Ghosts** (folder)
    * Ghost (script)
    * Ghost1 (sprite)
    * Ghost2 (sprite)
@@ -96,7 +98,7 @@ The Ghosts folder contain the script and sprites that are related to the charact
 
 The Items folder contain the objects that the player can interact with.
 
-* Items (folder)
+* **Items** (folder)
    * Coins (folder)
       * Small (sprite)
       * Big (sprite)
@@ -110,7 +112,7 @@ The Items folder contain the objects that the player can interact with.
 
 The Sounds folder contains all the sounds assets we use in our game.
 
-* Sounds (folder)
+* **Sounds** (folder)
    * Music
    * MenuButton
    * EatCoin
@@ -126,6 +128,6 @@ The Font asset is the text we use for our game score and to display others stati
 
 * Font (font)
 
-We can download the superpowers project **v0.2** from this chapter [here](https://github.com/mseyne/super-pacman-project).
+We can download the superpowers project **v2** from this chapter [here](https://github.com/mseyne/super-pacman-project).
 
 [<-- go to chapter 1](ch1.md) -- [go to chapter 3 -->](ch3.md)
