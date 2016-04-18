@@ -4,7 +4,7 @@
 * [Planning the game](ch1.md)
 * [Setting the project structure](ch2.md)
 * [Setting the assets](ch3.md)
-* Designing the levels
+* [Designing the levels](ch4.md)
 * Composing the scenes
 * Building game menu
 * Script global datas
