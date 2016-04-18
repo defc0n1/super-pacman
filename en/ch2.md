@@ -61,7 +61,7 @@ The Level folder contain all what concern the game mazes, the tileset and each t
    * Template (folder)
       * Tilemap (tile map)
    * Level1 (folder)
-      * // We can let the folder empty as we will copy the Template Tilemap thereafter on which we will map our level.
+      * // We can let the folder empty as we will copy the Template Tilemap thereafter on which we will map our level. (see chapter 4)
    * idem for Level2, Level3, etc..
 
 ![Level structure](img/ch2/levelstructure.png)
