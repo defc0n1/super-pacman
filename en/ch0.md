@@ -4,7 +4,7 @@
 ### **18/04/2016**
 
 * I wrote the [Chapter 4 : Designing the levels](ch4.md) and release the v4 of the project [here](https://github.com/mseyne/super-pacman-project).
-* I finished the new tileset.
+* I polished the tileset.
 
 ![Tile Set](img/ch3/leveltileset.png)
 
