@@ -37,8 +37,8 @@
 * Script player behavior
 * Script ghost behavior
 * Polishing the game
-	sound and music
-	end screen and stats
+	* Sound and music
+	* End screen and stats
 * Modding the game
-	adding a level
+	* Adding a level
 * Game source reference
