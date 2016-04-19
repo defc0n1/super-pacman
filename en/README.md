@@ -31,8 +31,8 @@
    * [Template level](ch4.md#template-level)
    * [Level layouts](ch4.md#level-layouts)
 * [Chapter 5 : Composing the scenes](ch5.md)
-   * [Menu Scene](ch5.md#menu-scene
-   * [Game Scene](ch5.md#game-scene
+   * [Menu Scene](ch5.md#menu-scene)
+   * [Game Scene](ch5.md#game-scene)
 * Scripting global datas
 * Scripting menu behavior
 * Scripting level loading and start
