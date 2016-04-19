@@ -1,6 +1,14 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+
+### **19/04/2016**
+
+* I wrote the [Chapter 5 : Composing the scenes](ch5.md) and release the v5 of the project [here](https://github.com/mseyne/super-pacman-project).
+
+![Tile Set](img/ch5/menuscene.png)
+![Tile Set](img/ch5/gamescene.png)
+
 ### **18/04/2016**
 
 * I wrote the [Chapter 4 : Designing the levels](ch4.md) and release the v4 of the project [here](https://github.com/mseyne/super-pacman-project).
