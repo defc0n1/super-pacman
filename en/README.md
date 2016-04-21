@@ -36,10 +36,11 @@
 * [Chapter 6 : Scripting global game behavior](ch6.md)
    * [Global datas](ch6.md#global-datas)
    * [Game behavior](ch6.md#game-behavior)
-* Chapter 7 : Scripting menu behavior
+* [Chapter 7 : Scripting menu behavior](ch7.md)
+   * [Menu behavior](ch7.md#menu-behavior)
 * Scripting new game and level loading
 * Scripting player behavior
-* Scripting ghost behavior
+* Scripting ghost and fruits behavior
 * Polishing the game
 	* Sound and music
 	* End screen and stats

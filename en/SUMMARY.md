@@ -7,10 +7,10 @@
 * [Designing the levels](ch4.md)
 * [Composing the scenes](ch5.md)
 * [Scripting global game behavior](ch6.md)
-* Scripting menu behavior
+* [Scripting menu behavior](ch7.md)
 * Scripting level loading and start
 * Scripting player behavior
-* Scripting ghost behavior
+* Scripting ghost and fruits behavior
 * Polishing the game
 * Modding the game
 * Game source reference
