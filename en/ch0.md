@@ -2,6 +2,10 @@
 ## **Super Pacman Game Devlog**
 
 
+### **21/04/2016**
+* I wrote the [Chapter 6 : Scripting global game behavior](ch6.md) and release the v6 of the project [here](https://github.com/mseyne/super-pacman-project).
+* I wrote the [Chapter 7 : Scripting menu behavior](ch7.md) and release the v7 of the project [here](https://github.com/mseyne/super-pacman-project).
+
 ### **19/04/2016**
 
 * I wrote the [Chapter 5 : Composing the scenes](ch5.md) and release the v5 of the project [here](https://github.com/mseyne/super-pacman-project).
