@@ -33,9 +33,11 @@
 * [Chapter 5 : Composing the scenes](ch5.md)
    * [Menu Scene](ch5.md#menu-scene)
    * [Game Scene](ch5.md#game-scene)
-* Scripting global datas
-* Scripting menu behavior
-* Scripting level loading and start
+* [Chapter 6 : Scripting global game behavior](ch6.md)
+   * [Global datas](ch6.md#global-datas)
+   * [Game behavior](ch6.md#game-behavior)
+* Chapter 7 : Scripting menu behavior
+* Scripting new game and level loading
 * Scripting player behavior
 * Scripting ghost behavior
 * Polishing the game

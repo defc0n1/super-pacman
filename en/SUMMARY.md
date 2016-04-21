@@ -6,7 +6,7 @@
 * [Setting the assets](ch3.md)
 * [Designing the levels](ch4.md)
 * [Composing the scenes](ch5.md)
-* Scripting global datas
+* [Scripting global game behavior](ch6.md)
 * Scripting menu behavior
 * Scripting level loading and start
 * Scripting player behavior
