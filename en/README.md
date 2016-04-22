@@ -38,8 +38,10 @@
    * [Game behavior](ch6.md#game-behavior)
 * [Chapter 7 : Scripting menu behavior](ch7.md)
    * [Menu behavior](ch7.md#menu-behavior)
-* Scripting new game and level loading
-* Scripting player behavior
+* [Chapter 8 : Scripting level and start](ch8.md)
+   * [New level settings](ch8.md#new-level-settings)
+   * [Start new game](ch8.md#start-new-game)
+* Scripting pacman behavior
 * Scripting ghost and fruits behavior
 * Polishing the game
 	* Sound and music
