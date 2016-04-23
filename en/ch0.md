@@ -1,6 +1,9 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+### **22/04/2016**
+* I wrote the [Chapter 8 : Scripting level and start](ch8.md) and release the v8 of the project [here](https://github.com/mseyne/super-pacman-project).
+* I wrote the [Chapter 9 : Scripting pacman behavior](ch9.md) and release the v9 of the project [here](https://github.com/mseyne/super-pacman-project).
 
 ### **21/04/2016**
 * I wrote the [Chapter 6 : Scripting global game behavior](ch6.md) and release the v6 of the project [here](https://github.com/mseyne/super-pacman-project).
