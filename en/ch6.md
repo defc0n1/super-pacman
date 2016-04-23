@@ -205,7 +205,7 @@ A method that store the local time globally and display it to the HUD.
     // Build the complete string for the current time
     Global.time = minute+':'+second;
     // Display it with the HUD/Timer text renderer
-    Global.HUD.getChild('Timer').textRenderer.setText("TIME : "+Global.time);
+    Global.HUD.getChild('Timer').textRenderer.setText("TIME:"+Global.time);
   }  
 [...]
 ```
