@@ -41,7 +41,8 @@
 * [Chapter 8 : Scripting level and start](ch8.md)
    * [New level settings](ch8.md#new-level-settings)
    * [Start new game](ch8.md#start-new-game)
-* Scripting pacman behavior
+* [Chapter 9 : Scripting pacman behavior](ch9.md)
+   * [Pacman behavior](ch9.md#pacman-behavior)
 * Scripting ghost and fruits behavior
 * Polishing the game
 	* Sound and music

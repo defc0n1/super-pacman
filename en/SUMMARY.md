@@ -8,7 +8,7 @@
 * [Scripting global game behavior](ch6.md)
 * [Scripting menu behavior](ch7.md)
 * [Scripting level and start](ch8.md)
-* Scripting pacman behavior
+* [Scripting pacman behavior](ch9.md)
 * Scripting ghost and fruits behavior
 * Polishing the game
 * Modding the game
