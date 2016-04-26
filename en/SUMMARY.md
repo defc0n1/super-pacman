@@ -10,7 +10,6 @@
 * [Scripting level and start](ch8.md)
 * [Scripting pacman behavior](ch9.md)
 * [Scripting ghost and fruits behaviors](ch10.md)
-* Polishing the game
-* Modding the game
-* Game source reference
+* [Adding Sound and music](ch11.md)
+* [Game source reference](ch12.md)
 * [Game devlog](ch0.md)

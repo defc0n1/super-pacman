@@ -46,8 +46,5 @@
 * [Chapter 10 : Scripting ghost and fruits behaviors](ch10.md)
    * [Ghost Behavior](ch10.md#ghost-behavior)
    * [Fruit Behavior](ch10.md#fruit-behavior)
-* Polishing the game
-	* Sound and music
-* Modding the game
-	* Adding a level
-* Game source reference
+* [Adding Sound and music](ch11.md)
+* [Game source reference](ch12.md)
