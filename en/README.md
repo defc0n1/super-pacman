@@ -43,10 +43,11 @@
    * [Start new game](ch8.md#start-new-game)
 * [Chapter 9 : Scripting pacman behavior](ch9.md)
    * [Pacman behavior](ch9.md#pacman-behavior)
-* Scripting ghost and fruits behavior
+* [Chapter 10 : Scripting ghost and fruits behaviors](ch10.md)
+   * [Ghost Behavior](ch10.md#ghost-behavior)
+   * [Fruit Behavior](ch10.md#fruit-behavior)
 * Polishing the game
 	* Sound and music
-	* End screen and stats
 * Modding the game
 	* Adding a level
 * Game source reference

@@ -9,7 +9,7 @@
 * [Scripting menu behavior](ch7.md)
 * [Scripting level and start](ch8.md)
 * [Scripting pacman behavior](ch9.md)
-* Scripting ghost and fruits behavior
+* [Scripting ghost and fruits behaviors](ch10.md)
 * Polishing the game
 * Modding the game
 * Game source reference
