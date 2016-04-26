@@ -6,12 +6,12 @@ We write the pacman script.
 
 #### Pacman behavior
 
-We need to define all the methods our pacman will need to interact with the world object, moving inside the walls and eating ghosts, coins and fruits. It define also the behavior when
+We need to define all the methods our pacman will need to interact with the world objects, moving inside the walls and eating ghosts, coins and fruits. It define also the behavior when
 the pacman is eaten and respawn.
 
 ##### Datas
 
-We initialize variable with their types. 
+We initialize the variables with their types. 
 
 ```ts
 class PacmanBehavior extends Sup.Behavior {
@@ -149,7 +149,7 @@ This method check if there is a fruit to take in the pacman current position.
         // Remove the fruit from the list
         Global.fruits.splice(Global.fruits.indexOf(fruit), 1);
         // Call a local function of the fruit script
-        fruit.die();
+        fruit.eaten();
       }
     }
   }
@@ -233,7 +233,7 @@ This method update the life of the pacman, hide the actor and create a new actor
     // Set the current position to the death actor
     death.setPosition(this.actor.getPosition());
     // Add a sprite renderer component and play once the death animation
-    new Sup.SpriteRenderer(death).setSprite("Pacman/Death/Sprite").setAnimation("death", false);
+    new Sup.SpriteRenderer(death).setSprite("Pacman/Death").setAnimation("death", false);
     // Set the timer before respawn
     this.respawnCooldown = 10;
   }
