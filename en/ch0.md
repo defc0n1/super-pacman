@@ -1,6 +1,9 @@
 # Superpowers Game Development Series #5 
 ## **Super Pacman Game Devlog**
 
+### **26/04/2016**
+* I wrote the [Chapter 10 : Scripting ghost and fruit behaviors](ch10.md) and release the v10 of the project [here](https://github.com/mseyne/super-pacman-project).
+
 ### **22/04/2016**
 * I wrote the [Chapter 8 : Scripting level and start](ch8.md) and release the v8 of the project [here](https://github.com/mseyne/super-pacman-project).
 * I wrote the [Chapter 9 : Scripting pacman behavior](ch9.md) and release the v9 of the project [here](https://github.com/mseyne/super-pacman-project).
