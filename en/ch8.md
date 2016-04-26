@@ -38,7 +38,7 @@ namespace Level {
   
   // Size of level per unit of 16 pixels
   export enum size {
-        width = 24,
+        width = 26,
         height = 32 
        }
   
