@@ -103,10 +103,10 @@ Here the structure of the game scene actors :
 * **Level**
 * **Pacman**
 * **Ghosts**
-   * 0
    * 1
    * 2
    * 3
+   * 4
 * **Fruits**
    * 0
    * 1
@@ -159,10 +159,10 @@ The Pacman actor in position **(0, 0, 30)** have two components :
 
 ##### Ghosts actor
 
-The ghosts actor is in position **(0, 0, 20)**, each ghost (0, 1, 2, 3) got two components :
+The ghosts actor is in position **(0, 0, 20)**, each ghost (1, 2, 3, 4) got two components :
 
 * Behavior with the class **GhostBehavior**
-* Sprite Renderer with the sprite **Ghosts/Ghost1** for 0 actor, **Ghosts/Ghost2** for 1 actor, **Ghosts/Ghost3** for 2 actor, **Ghosts/Ghost4** for 3 actor
+* Sprite Renderer with the sprite **Ghosts/Ghost1** for 1 actor, **Ghosts/Ghost2** for 2 actor, **Ghosts/Ghost3** for 3 actor, **Ghosts/Ghost4** for 4 actor
 
 ![game ghosts](img/ch5/gameghosts.png)
  
