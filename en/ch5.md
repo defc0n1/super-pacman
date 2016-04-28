@@ -44,7 +44,7 @@ The Menu actor have the behavior component with the class **MenuBehavior** attac
 
 The Camera actor have a camera component attached to it with this parameters.
 
-* Position:**(18.7, 25, 50)** to have the camera centered on the screens pictures and far enough on Z axis(50).
+* Position:**(18.75, 25, 50)** to have the camera centered on the screens pictures and far enough on Z axis(50).
 * Mode:**Orthographic** (important for our 2d game)
 * Orthographic Scale: **50**
 

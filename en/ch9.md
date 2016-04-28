@@ -340,9 +340,9 @@ The loop check the input of the player, check the tilemap by calling methods for
     
     // Keep pacman in the game screen on the x axis (tunnel)
     if (this.position.x < 0){
-      this.position.x = (Level.size.width * 10)+10;
+      this.position.x = (Level.size.width * 10)-10;
     }
-    if (this.position.x > (Level.size.width * 10)+10){
+    if (this.position.x > (Level.size.width * 10)-10){
       this.position.x = 0;
     }
     
